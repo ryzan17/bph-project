@@ -32,6 +32,8 @@ $routes->set404Override();
 // $routes->get('/', 'Home::index');
 $routes->get('/', 'Dashboard::index');
 $routes->get('/deteksi', 'Deteksi::index');
+$routes->get('/deteksi-2', 'Deteksi::deteksi2');
+
 
 /*
  * --------------------------------------------------------------------
